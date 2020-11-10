@@ -1,0 +1,379 @@
+<!doctype html>
+<html>
+<span>
+<head>
+<meta charset="utf-8">
+<style>
+#myInput {
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 2px solid #004C8E; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+background-color: white;
+text-decoration-color: #004C8E;
+	color:#004C8E
+}
+#myUL {
+	/* Remove default list styling */
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#myUL li:hover:not(.panel)
+	{
+		background: #004C8E;
+		color:white;
+	}
+	
+
+#myUL li {
+  border: 1px solid white; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #004C8E; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: white; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+	
+	#myUL li button:active {
+		background: #004C8E;
+	}
+
+#myUL li a:hover:not(.header) {
+  background-color: #inherit; /* Add a hover effect to all links, except for headers */
+	color: #004C8E
+}
+	
+	#myUL li a:hover {
+		color: #black
+	}
+	
+	#myUL li a:link {
+		color: #004C8E
+	}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #004C8E;
+  opacity: 1; /* Firefox */
+}
+.accordion:not(a) {
+  background-color: inherit;
+  color: inherit;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: #004C8E;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+	color: 004C8E;
+}
+
+
+.active {
+  background-color: #004C8E;
+	color:#004C8E;
+	border: #004C8E;
+	border-width: thin;
+	}
+	
+	.accordion:hover {
+  background-color: #004C8E;
+	color:inherit;
+	border: #004C8E;
+	border-width: thin;
+	}
+	.accordion:active {
+  background-color: #004C8E;
+	color:inherit;
+	border: #004C8E;
+	border-width: thin;
+
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+	color: black;
+  overflow: hidden;
+	}
+	.a {background-color: white;
+	}
+#myUL li a:visited
+	{
+		color:#004C8E
+	}
+
+	</style>
+<title>I need help with...</title>
+</head>
+<input type="text" id="myInput" onkeyup="myFunction()" style="width: 20%" placeholder="Search...">
+<ul id="myUL">
+
+<li><button class="accordion">Adobe Creative Cloud</button>
+<div class="panel">
+  <p>Adobe Creative Cloud is a product that is used for specific courses only. It is not available to all NCC students. For assistance with accessing this product, contact <a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a> or call 610-861-5413.</p>
+</div></li>
+	<li><button class="accordion">BioSig-ID</button>
+<div class="panel">
+  <p>
+	  A few specific courses utilize this tool. If it's being utilized in your course, it will be noted by your instructor on Blackboard.
+	  <br><br>
+	  For help with BioSig-ID, go to <a href="https://bpe-help.biosig-id.com/portal/en/home" target="new">https://bpe-help.biosig-id.com/portal/en/home</a>. You can search for help or click “Submit a ticket” at the bottom of the page to get assistance.</p>
+</div></li>
+  <li><button class="accordion">Blackboard</button>
+<div class="panel">
+  <p><a href="https://www.northampton.edu/coronavirus/support-and-faqs/online-learning-setup-guide.htm" target="new">Click here</a> and refer to the "Student Blackboard Help" section for 24/7 phone support, virtual drop in help hours, and individualized appointments.
+	<br><br>
+	Accessibility:<br>
+	<ul>•	<a href="https://help.blackboard.com/Learn/Student/Accessibility" target="new">Blackboard Accessibility</a></ul>
+	<ul>•	<a href="http://library.blackboard.com/docs/screen_reader_tutorial_release_6.htm" target="new">Using Blackboard Screen Readers with Blackboard Tutorial</a></ul><br>
+	Additional resources:<br>
+	<ul>•	<a href="https://www.northampton.edu/coronavirus/support-and-faqs/online-learning-setup-guide.htm" target="new">Live Blackboard student help options offered by NCC</a></ul>
+	<ul>•	<a href="http://webapp.northampton.edu/distancelearndocs/Blackboard_Quick_Start_Students.pdf" target="new">Blackboard Quick-Start Student Guide</a> – reviews common Blackboard procedures such as logging on, posting discussions, and checking grades</ul>
+	<ul>•	<a href="http://webapp.northampton.edu/distancelearndocs/Online_Learning_Instructional_Guide.pdf" target="new">NCC Blackboard Guide</a> - Instructions for accessing and navigating your online course.</ul>
+	<ul>•	<a href="https://help.blackboard.com/Learn/Student" target="new">Blackboard Student Help Website</a> - Blackboard help specifically for students.<br>
+	  <br>
+	</ul>
+	System Requirements:<br>
+    <ul>
+      • 
+    Click <a href="https://help.blackboard.com/Learn/Student/Getting_Started/Browser_Support">here</a> for detailed information about which internet browsers, devices, and operating systems support Blackboard. 
+    </ul>
+	<ul>
+      • 
+    When using Blackboard and Blackboard Collaborate, Google Chrome is the recommended internet browser. Refrain from using Internet Explorer. <br></ul>
+  </p>
+   </div></li>
+	<li><button class="accordion">Blackboard (Logging In)</button>
+<div class="panel">
+  <p>1.	Go directly to <a href="northampton.Blackboard.com" target="new">northampton.Blackboard.com</a>.<br>
+2.	Enter your Blackboard username and password. If you have never changed your Blackboard password, both your username AND password will be your NCC student ID number.<br>
+3.	Once you log, you can change your password if you’d like. You can find more information about changing your password in this <a href="https://help.blackboard.com/Learn/Student/About_You/Personal_Settings" target="new">helpful guide</a>.<br>
+4.	If you are unable to login following these directions, email <a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a> from your NCC email address. They will be able to reset it for you. You can also call the Help Desk (call 610-861-5413.)</p>
+</div></li>
+<li><button class="accordion">Blackboard (Mobile App)</button>
+<div class="panel">
+  <p>NCC has the Blackboard mobile app enabled for all students. This <a href="https://www.youtube.com/watch?v=iYO9y4j3njQ" target="new">video</a> provides a tour of the app. <br><br>
+
+The username and password for the app are the same username and password as you would use on your computer when logging directly into Blackboard. 
+<br><br>
+For login instructions, refer to "Blackboard (Logging In).  
+
+To download the app on your smart phone, <a href="https://help.blackboard.com/Blackboard_App/Quick_Start" target="new">follow these instructions</a>. 
+<br><br>
+	  <strong>Please Note:</strong> You may not be able to access tests or assignments on a mobile device (phone/tablet). When taking an online course, students should have access to a standard computer (PC with Windows or Mac) or Chromebook. 
+
+</p>
+</div></li>
+	<li><button class="accordion">Blackboard (Reset Password)</button>
+<div class="panel">
+  <p>If you need help resetting your Blackboard password, please email <a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a> or call 610-861-5413.</p>
+</div></li>
+	<li><button class="accordion">Blackboard Collaborate Ultra</button>
+<div class="panel">
+  <p>For help with Blackboard Collaborate Ultra, call 877-382-2293.</p>
+</div></li>
+	
+	<li><button class="accordion">Borrowing a Computer</button>
+<div class="panel">
+  <p>The college ITS Helpdesk has a limited number of Chromebooks to loan out. For help with borrowing a computer, please email <a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a> or call 610-861-5413.</p>
+</div></li>
+	<li><button class="accordion">Class Content</button>
+<div class="panel">
+  <p>For questions about course content, communicate with your specific course instructor for assistance. Faculty contact information is listed in the course syllabus.</p>
+</div></li>
+	<li><button class="accordion">Computer Repair</button>
+<div class="panel">
+  <p>NCC's Computer Club provides various computer services at a reasonable rate. Services include installing Windows, PC tune-up and repair, updates, program and hardware installation, and Malware removal. Email <a href="mailto:computerclub@northampton.edu">computerclub@northampton.edu</a> for more information.</p>
+</div></li>
+		<li><button class="accordion">Connecting to NCC Campus Wifi</button>
+<div class="panel">
+  <p>All of the indoor buildings are covered with WiFi. 
+<br><br>
+At the Bethlehem campus, wifi signal is available in the following locations: Reibman Hall parking spots facing communication hall (signal weakens on the outer circle spots); T-Building visitors spots between street and sidewalk leading to entrance door; Penn Hall staff parking lot (park facing Penn Hall for best signal).
+<br><br>
+At the Monroe campus, the entire parking lot in front of Keystone Hall has Wifi signal. 
+<br><br>
+Campus maps listed here: <a href="https://www.northampton.edu/about/maps-and-directions.htm" target="new">https://www.northampton.edu/about/maps-and-directions.htm</a>.</p>
+</div></li>
+		<li><button class="accordion">Echo 360</button>
+<div class="panel">
+  <p>For help with Echo 360, you can go to their website (<a href="https://support.echo360.com/hc/en-us" target="new">https://support.echo360.com/hc/en-us</a>), email <a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a>, or call 610-861-5413.</p>
+</div></li>
+		<li><button class="accordion">Email</button>
+<div class="panel">
+  <p>
+	  You can access your student email through MyNCC. Click <a href="https://www.youtube.com/watch?v=Re75N1_TRGE" target="new">here</a> for a demonstration of how to access your student email account and send an email with an attachment. Click <a href="https://www.northampton.edu/student-email-resources-faq.htm" target="new">here</a> for additional email tutorials. 
+<br><br>
+For assistance accessing email or installing Office 365, contact <a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a> or call 610-861-5413.
+<br><br>
+For assistance with how to use email or for training, follow <a href="https://www.northampton.edu/student-services/learning-center.htm" target="new">this link</a> and schedule an appointment with an Academic Coach. Do this by clicking the <a href="https://northampton.mywconline.com/" target="new">link for the tutoring schedules</a> or by connecting with Learning Center staff via their <a href="https://us.bbcollab.com/collab/ui/session/guest/f0efa6c8286143fab8ced0f42018b87f" target="new">virtual front desk</a>, phone (610-861-5517), or email <a href="mailto:tutoring@northampton.edu">tutoring@northampton.edu</a>.
+
+</p>
+</div></li>
+		<li><button class="accordion">File Formatting/ Uploading</button>
+<div class="panel">
+  <p>Follow this link and schedule an appointment with an Academic Coach: <a href="https://www.northampton.edu/student-services/learning-center.htm" target="new">https://www.northampton.edu/student-services/learning-center.htm</a>.
+<br><br>
+Do this by clicking the link for the tutoring schedules (<a href="http://northampton.mywconline.com/" target="new">http://northampton.mywconline.com/</a>) or by connecting with Learning Center staff via their virtual front desk (<a href="https://us.bbcollab.com/guest/f0efa6c8286143fab8ced0f42018b87f" target="new">https://us.bbcollab.com/guest/f0efa6c8286143fab8ced0f42018b87f</a>), phone (610-861-5517), or email <a href="mailto:tutoring@northampton.edu">tutoring@northampton.edu</a>.</p>
+  <p>NCC students have free&nbsp;<a href="https://signup.microsoft.com/signup?sku=Education">access to a web-based version of Microsoft Office</a>.&nbsp;  This&nbsp;<a href="https://www.youtube.com/watch?v=FukF7VaKoIc" target="_blank">video tutorial</a>&nbsp;demonstrates how to  access it.</p>
+  <p>Online course instructors will  probably ask that students to submit online course work in a specific file type  (typically Microsoft Word or a PDF). Here are instructions for how to convert  electronic documents into different formats: convert Pages file to Microsoft  Word or PDF (<a href="https://www.youtube.com/watch?v=McBrqACNBG4">video tutorial</a>;&nbsp;<a href="https://www.canva.com/design/DAECi5zTH3U/i4cyIxOfkxRmukpW3Gie2Q/view?utm_content=DAECi5zTH3U&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton.xml" target="_blank">typed instructions</a>);  convert Microsoft Word file to PDF (<a href="https://www.youtube.com/watch?v=tIS8Wop_7H4">video  tutorial</a>;&nbsp;<a href="https://www.canva.com/design/DAECixbU6vg/7d_Cycnc5UhozxDwVE8_0w/view?utm_content=DAECixbU6vg&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank">typed instructions</a>);  convert Google Doc to Microsoft Word or PDF (<a href="https://www.youtube.com/watch?v=OXc7-GAyYOw&feature=youtu.be.xml" target="_blank">video tutorial</a>;&nbsp;<a href="https://www.canva.com/design/DAEBNmJuxoI/2GCXTjs7Tv7qAh097JlHoA/view?utm_content=DAEBNmJuxoI&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank">typed instructions</a>).</p>
+</div></li>
+		<li><button class="accordion">Internet Browser</button>
+<div class="panel">
+  <p>For assistance, contact <a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a> or call 610-861-5413.</p>
+</div></li>
+		<li><button class="accordion">MyNCC</button>
+<div class="panel">
+  <p>For help with MyNCC, please email <a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a> or call 610-861-5413.</p>
+  <p>Students are provided  with MyNCC login instructions in the initial acceptance packet from the  college. If a student loses their passwords, they should contact the&nbsp;<a href="mailto:record@northampton.edu" target="_blank">Records  Office</a>.</p>
+</div></li>
+		<li><button class="accordion">Office 365</button>
+<div class="panel">
+  <p>For assistance accessing or installing Office 365, contact <a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a> or call 610-861-5413.
+<br><br>
+For assistance with how to use Office 365 or for training, follow this link and schedule an appointment with an Academic Coach: <a href="https://www.northampton.edu/student-services/learning-center.htm" target="new">https://www.northampton.edu/student-services/learning-center.htm</a>.
+<br><br>
+Do this by clicking the link for the tutoring schedules (<a href="http://northampton.mywconline.com/" target="new">http://northampton.mywconline.com/</a>) or by connecting with Learning Center staff via their virtual front desk (<a href="https://us.bbcollab.com/guest/f0efa6c8286143fab8ced0f42018b87f" target="new">https://us.bbcollab.com/guest/f0efa6c8286143fab8ced0f42018b87f</a>), phone (610-861-5517), or email <a href="mailto:tutoring@northampton.edu">tutoring@northampton.edu</a>.</p>
+  <p>This quick <a href="https://www.youtube.com/watch?v=FukF7VaKoIc" target="new">video</a> demonstrates how NCC students can access and use Office 365 with their student accounts.
+<br><br>
+	Refer to the <a href="https://support.microsoft.com/en-us/microsoft-365" target="new">Microsoft 365 Support website</a> for video tutorials and helpful guides. 
+	</p>
+</div></li>
+		<li><button class="accordion">Operating System</button>
+<div class="panel">
+  <p>For assistance, contact <a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a> or call 610-861-5413.</p>
+</div></li>
+		<li><button class="accordion">Proctorio</button>
+<div class="panel">
+  <p>For help with Proctorio, go to their website <a href="https://proctorio.com/support" target="new">https://proctorio.com/support</a>.</p>
+  <p>Some instructors may use  Proctorio to proctor online exams.&nbsp;</p>
+  <p>Additional information:<br>
+    <a href="https://proctorio.com/support#faq" target="_blank" title="Proctorio FAQ">Proctorio&nbsp;FAQs</a><br>
+    <a href="https://proctorio.com/support#minReqs" target="_blank" title="Proctorio System Requirements">Proctorio&nbsp;System  Requirements</a><br>
+    <a href="mailto:support@proctorio.com" title="Proctorio Support Email Address">Proctorio&nbsp;Email Support</a></p>
+</div></li>
+		<li><button class="accordion">SafeAssign</button>
+<div class="panel">
+  <p>For help with SafeAssign, please email <a href="mailto:onlinelearning@northampton.edu">onlinelearning@northampton.edu</a> or call 610-332-6089.</p>
+</div></li>
+		<li><button class="accordion">Splashtop</button>
+<div class="panel">
+  <p>Splashtop is a product that is used for specific courses only. It is not available to all NCC students. For assistance with this product, contact <a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a> or call 610-861-5413.</p>
+</div></li>
+		<li><button class="accordion">Textbook (Cengage)</button>
+<div class="panel">
+  <p>For help with your Cengage textbooks, go to <a href="https://cengage.force.com/s/" target="new">https://cengage.force.com/s/</a> or call 800-354-9706.</p>
+</div></li>
+		<li><button class="accordion">Textbook (Macmillan)</button>
+<div class="panel">
+  <p>For help with your Macmillan textbook, visit <a href="https://macmillan.force.com/macmillanlearning/s/" target="new">https://macmillan.force.com/macmillanlearning/s/</a> or call 800-936-6899.</p>
+</div></li>
+<li><button class="accordion">Textbook (McGraw Hill - ALEKS)</button>
+<div class="panel">
+  <p>
+	  MATH020, MATH022, and MATH026 courses feature McGraw-Hill E-learning electronic textbooks paired with ALEKS.
+<br> <br>
+ALEKS uses adaptive questioning to easily determine exactly what a student knows and doesn't know in a  MATH course.   
+<br><br>
+	  For help with ALEKS, please contact <a href="mailto:dhigham@northampton.edu">dhigham@northampton.edu</a>.</p>
+	</div></li>
+	<li><button class="accordion">Textbook (McGraw Hill - Simnet)</button>
+<div class="panel">
+  <p>For help with your McGraw Hill or Simnet textbooks, go to <a href="https://www.mheducation.com/highered/support" target="new">https://www.mheducation.com/highered/support</a> or call 800-331-5094.</p>
+</div></li>
+	<li><button class="accordion">Textbook (PanOpen)</button>
+<div class="panel">
+  <p>For help with your PanOpen textbook, please email <a href="mailto:support@panopen.com">support@panopen.com</a> or call 833-726-6736.</p>
+</div></li>
+	<li><button class="accordion">Textbook (Pearson)</button>
+<div class="panel">
+  <p>For help with your Pearson textbook, go to <a href="https://support.pearson.com/getsupport/s/students" target="new">https://support.pearson.com/getsupport/s/students</a>.</p>
+</div></li>
+	<li><button class="accordion">Textbook (Pearson MyLab & Mastering)</button>
+<div class="panel">
+  <p>For help with Pearson MyLab & Mastering, go to <a href="https://www.pearsonmylabandmastering.com/northamerica/students/support/index.html" target="new">https://www.pearsonmylabandmastering.com/northamerica/students/support/index.html</a>.</p>
+</div></li>
+	<li><button class="accordion">Textbook (Revel)</button>
+<div class="panel">
+  <p>For help with your Revel textbook, go to <a href="https://www.pearsonhighered.com/revel/students/supports" target="new">https://www.pearsonhighered.com/revel/students/supports</a>.</p>
+</div></li>
+	<li><button class="accordion">Using a Computer Lab</button>
+<div class="panel">
+  <p>Drop-in computer centers are located on each campus in College Center 114 and 117, Keystone 150, Monroe Library, and Fowler 103. They are available on an appointment basis. For more information, visit <a href="https://www.northampton.edu/student-services/computer-labs.htm" target="new">https://www.northampton.edu/student-services/computer-labs.htm</a>.</p>
+</div></li>
+	<li><button class="accordion">Zoom</button>
+<div class="panel">
+  <p>For assistance connecting to Zoom, contact <a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a> or call 610-861-5413.
+<br>
+For assistance with how to use Zoom or for training, follow this link and schedule an appointment with an Academic Coach: <a href="https://www.northampton.edu/student-services/learning-center.htm" target="new">https://www.northampton.edu/student-services/learning-center.htm</a>.<br>
+<br>
+    Do this by clicking the link for the tutoring schedules (<a href="http://northampton.mywconline.com/" target="new">http://northampton.mywconline.com/</a>) or by connecting with Learning Center staff via their virtual front desk (<a href="https://us.bbcollab.com/guest/f0efa6c8286143fab8ced0f42018b87f" target="new">https://us.bbcollab.com/guest/f0efa6c8286143fab8ced0f42018b87f</a>), phone (610-861-5517), or email <a href="mailto:tutoring@northampton.edu">tutoring@northampton.edu</a>.
+  </p>
+  <p>Click <a href="https://www.northampton.edu/PLKpRxBfeD1kEM_I1lId3N_Xl77fKDzSXe">here</a> to view a Zoom YouTube Playlist&nbsp;that features a variety of short  tutorials.</p>
+  <p>For assistance connecting to Zoom, contact&nbsp;<a href="mailto:helpdesk@northampton.edu">helpdesk@northampton.edu</a>&nbsp;or  call 610-861-5413.</p>
+  <p>For assistance with how to use zoom, follow this <a href="https://www.northampton.edu/student-services/learning-center.htm">link</a> and schedule an appointment with an  Academic Coach. Do this by clicking the <a href="http://northampton.mywconline.com/">link  for the tutoring schedules</a> or by connecting with Learning Center  staff via their <a href="https://us.bbcollab.com/guest/f0efa6c8286143fab8ced0f42018b87f">virtual front desk</a>, phone (610-861-5517),  or email <a href="mailto:tutoring@northampton.edu">tutoring@northampton.edu</a>.</p>
+  <p>Additional information: </p>
+  
+    <blockquote>
+      <p><a href="https://support.zoom.us/hc/en-us/articles/201362023-System-requirements-for-Windows-macOS-and-Linux">Zoom       system requirements for Windows, macOS, and Linux</a>
+        <br>
+        <a href="https://support.zoom.us/hc/en-us/articles/201179966-System-requirements-for-iOS-iPadOS-and-Android">Zoom       system requirements for iOS, iPadOS, and Android</a>
+        <br>
+        <a href="https://blog.zoom.us/how-to-use-zoom-on-a-chromebook/">Using Zoom on       a Chromebook</a>
+        <br>
+        <a href="https://support.zoom.us/hc/en-us/articles/206175806#h_12512067-340a-4ca9-8d5b-f52a7ed016fb">FAQ       from Zoom</a><br>
+        <br>
+      </p>
+    </blockquote>
+</div>
+  </li>
+	
+	
+</ul>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, button, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    button = li[i].getElementsByTagName("button")[0];
+    txtValue = button.textContent || button.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</span>
+</html>
